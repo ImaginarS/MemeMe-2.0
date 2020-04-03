@@ -73,7 +73,6 @@ extension UITableView {
         let titleLabel = UILabel()
         let messageLabel = UILabel()
         
-        
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.textColor = UIColor.black
@@ -93,7 +92,6 @@ extension UITableView {
         messageLabel.text = message
         messageLabel.numberOfLines = 0
         messageLabel.textAlignment = .center
-        
         self.backgroundView = emptyView
         self.separatorStyle = .none
     }
